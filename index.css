@@ -11,16 +11,17 @@ body{
     margin: 30px;
     color: aliceblue;
     border: 3px solid white;
-    background-color: black;
+    background-image: linear-gradient(to bottom right , black , grey);
     border-radius: 30px;
+    text-shadow: black 4px 4px;
 }
 
 .k2{
     text-align: center;
-    font-size: 23px;
+    font-size: 17px;
     color: aliceblue;
     border: 3px solid white;
-    background-color: black;
+    background-image: linear-gradient(to bottom right , black , grey);
     border-radius: 30px;
     margin: 20px;
 }
@@ -28,6 +29,19 @@ body{
 .t{
     height: 470px;
     width: 750px;
+    border-radius: 20px;
+}
+
+.u{
+    color: black;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.u:hover{
+    color: white;
+    background-color: black;
 }
 
 @media screen and (max-width:600px) {
@@ -39,6 +53,6 @@ body{
         width: 400px;
     }
     .k2{
-        font-size: 19px;
+        font-size: 15px;
     }
 }
