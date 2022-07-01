@@ -18,12 +18,13 @@ body{
 
 .k2{
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     color: aliceblue;
     border: 3px solid white;
     background-image: linear-gradient(to bottom right , black , grey);
     border-radius: 30px;
     margin: 20px;
+    padding: 15px;
 }
 
 .t{
@@ -54,5 +55,6 @@ body{
     }
     .k2{
         font-size: 15px;
+        padding: 10px;
     }
 }
