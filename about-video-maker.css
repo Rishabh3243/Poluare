@@ -3,3 +3,47 @@ body{
     background-size: auto auto;
     background-repeat: no-repeat;
 }
+
+.ic{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.ic:hover{
+    position: relative;
+    animation-name: face;
+    animation-duration: 2s;
+}
+
+.l{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 180, 190);
+    text-shadow: 4px 4px black;
+}
+
+.l:hover{
+    color: aqua;
+}
+
+@keyframes face{
+    0%{
+        left:0px;
+    }
+
+    100%{
+        left: -30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .l{
+        font-size: 45px;
+    }
+    .ic{
+        height: 30px;
+        width: 30px;
+    }
+}
